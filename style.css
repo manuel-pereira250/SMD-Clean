@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+header{
+    justify-content: space-between;
+    display: flex;
+    background-color: #5e5e5ea6;
+    padding: 2%;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    position: sticky;
+    box-shadow: 0 0.21rem 0.9rem;
+}
+header h1{
+    font-size: 3rem;
+    color: #aaaa91;
+}
+header a{
+    
+    text-align: center;
+    margin-left: 1rem;
+    color: white;
+    font-size: 1.4rem;
+}
+
+
+
+
+
+.section-01{
+    background-color: rgba(0, 0, 255, 0.699);
+    padding: min(20vh, 6rem);
+    background-image: url(img/limpeza.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section-01 h2{
+    color: white;
+    font-size: 6em;
+    text-align: center;
+}
+.section-01 .div-pai-s1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+}
+.div-s1-p{
+    color: white;
+    font-size: 2em;
+    margin: 1.2em;
+}
+.div-s1-img{
+    width: 40rem;
+    margin: 5rem auto;
+    display: block; /*Garantindo que a imagem se comporte como um bloco*/
+    
+}
+
+
+
+
+
+.section-02{
+    background-color: #464661;
+    padding: 15em;
+    
+}
+
+.section-02 .div-pai{
+    display: flex;
+    gap: 5em;
+}
+.section-02 .section-02-div h2{
+    font-size: 4em;
+    color: #aaaa91;
+    text-align: center;
+    margin-top: -2em;
+    margin-bottom: 1em;
+}
+.div-5{
+    color: white;
+}
+
+.section-02 i{
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+
+
+
+
+
+
+
+.section-03{
+    background-color: #464661;
+    padding: 15em;
+    
+}
+.section-03 .div-3{
+    font-size: 1.2em;
+    display: flex;
+    color: white;
+    gap: 5em;
+}
+
+.section-03 .div-4{
+    margin-top: 0.5rem;
+    display: flex;
+    gap: 12em;
+    color: white;
+    font-size: 1em;
+}
+.section-03 .p4-2{
+    margin-left: 3rem;
+}
+
+.section-03 .p4{
+    margin-left: 2rem;
+    
+}
+
+.section-03 button{
+    font-size: 2rem;
+    margin-left: 4.5em;
+    margin-top: 2em;
+    color: white;
+    background-color: #464661;
+}
+.section-03 button:hover {
+    
+    cursor: pointer;
+    
+    box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.473);
+    
+    transform: scale(1.1, 1.1);
+    
+    transition: 0.8s;
+    
+}
+
+
+
+
+
+footer{
+    justify-content: space-between;
+    display: flex;
+    background-color: #5e5e5e;
+    padding: 2%;
+}
+footer h1{
+    font-size: 3rem;
+    color: #aaaa91;
+}
+footer a{
+    
+    text-align: center;
+    margin-left: 1rem;
+    color: white;
+    font-size: 1.4rem;
+}
