@@ -9,7 +9,7 @@ ScrollReveal().reveal('#section-1', {
 ScrollReveal().reveal('#section-2', {
     duration: 1000,
     origin: 'right', 
-    distance: '50px' 
+    distance: '50px',
 });
 
 const typed = new Typed('#div-pai-section-3', {
@@ -19,4 +19,26 @@ const typed = new Typed('#div-pai-section-3', {
     loop: true, 
     showCursor: false, 
     fadeOut: true, 
+});
+
+$(document).ready(function() {
+
+    
+    $('.carousel').slick({
+
+        
+        slidesToShow: 3, 
+
+        
+        slidesToScroll: 1, 
+
+        
+        infinite:true, 
+
+        
+        dots: true, 
+
+        
+        arrows: true, 
+    });
 });

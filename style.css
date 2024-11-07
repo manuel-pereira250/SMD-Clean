@@ -147,6 +147,68 @@ header a{
     transition: 0.8s;
     
 }
+.section-04{
+    padding: 15em;
+}
+
+.card1 {
+    background-image: url(img/banco\ de\ carro.jpg);
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    height: 22rem;
+    width: 28rem;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card2 {
+    background-image: url(img/colchão.jpg);
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    height: 22rem;
+    width: 28rem;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card3 {
+    background-image: url(img/tapete.jpg);
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    height: 22rem;
+    width: 28rem;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card4 {
+    background-image: url(img/sofa.jpg);
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    height: 22rem;
+    width: 28rem;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card1 h3 {
+    color: rgb(88, 87, 87);
+    font-size: 2em;
+}
+.card2 h3 {
+    color: rgb(39, 36, 36);
+    font-size: 2em;
+}
+.card3 h3 {
+    color: rgb(39, 36, 36);
+    font-size: 2em;
+}
+.card4 h3 {
+    color: rgb(39, 36, 36);
+    font-size: 2em;
+}
+
 
 
 
